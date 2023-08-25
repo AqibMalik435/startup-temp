@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #0a2348;
+    color: white;
+    align-items: center;
+}
+.contact-nav ul li{
+    display: inline;
+    margin-left: 15px;
+}
+.contact-nav .right .socIcon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.contact-nav .right .socIcon-wrap .socIcon{
+    padding: 0px 10px;
+    width: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+    border-radius: 50%;
+    padding: 18px;
+    border: 1px solid white;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.socIcon-wrap .socIcon a{
+    color: white;
+}
+.socIcon-wrap .socIcon:hover{
+    background-color: white;
+}
+.socIcon-wrap .socIcon:hover a{
+    color: black;
+}
+#hero-sec{
+    background-image: url(./img/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-wrap{
+    width: 100%;
+    height: 92vh;
+    background-color: #0a2348ca;
+
+}
+.hero-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    
+}
+.hero-nav ul li{
+    display: inline;
+    margin-left: 20px;
+
+    
+    
+}
+.hero-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+    
+}
+.hero-nav ul li a:hover{
+    color: #1898c7;
+}
+
+.hero-nav ul li a{
+    font-size: 20px;
+}
+.hero-nav ul li button{
+    background-color: #1898c7;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: 0.4s;
+    
+}
+
+.hero-nav ul li button:hover{
+    background-color:#1db7ef ;
+    color: black;
+    
+}
+.hero-cont{
+    text-align: center;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-cont h1{
+    font-size: 70px;
+}
+.hero-cont p{
+    font-size: 20px;
+}
+.hero-cont button{
+    background-color: #1db7ef;
+    color: white;
+    border: 1px solid #1db7ef;
+    outline: 0;
+    padding: 20px 50px;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 10px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.btn-2{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+.hero-cont button:hover{
+    background-color:#1b9dcd;
+    color: black;
+}
+.btn-2:hover{
+    background-color: white !important;
+    color: black;
+}
+#card-sec{
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+    margin-top: -70px;
+    box-shadow: 0px 0px 8px black;
+}
+#card-sec .card1{
+    background-attachment: #06a3da;
+}
+#card-sec .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: #06a3da;
+    width: 33.333%;
+    
+}
+#card-sec i{
+    font-size: 30px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 2px;
+
+}
+#card-sec .card2{
+    background-color:white ;
+    color: white;
+}
+#card-sec .card p{
+    color: white;
+    font-size: 20px;
+
+}
+#card-sec .card h2{
+    font-size: 35px;
+    color: white;
+
+}
+#card-sec .card1 i{
+    color: #06a3da;
+}
+#card-sec .card2 i{
+    background-color: #0ab6f4;
+}
+#card-sec .card2 p{
+    color: #0ab6f4;
+}
+#card-sec .card2 h2{
+    color: black;
+}
+#card-sec .card3 i{
+    color: #0ab6f4;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    margin: 100px 50px;
+}
+#about .left, .right{
+    width: 50%;
+}
+#about .right img{
+    width: 90%;
+}
+.check-row{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+}
+.check-row div{
+    width: 50%;
+}
+.check-row i{
+    color: #0ab6f4;
+    margin-right: 15px;
+}
+.call{
+    display: flex;
+}
+
+.call i{
+    background-color: #06b7f8;
+    padding: 20px;
+    border-radius: 2px;
+    color: white;
+    margin-right: 20px;
+}
+.call p{
+    margin-bottom: 5px !important;
+    color: black !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.call h2{
+    color: #02b7f9;
+}
+.quote-btn{
+    background-color: #03bafd;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    outline: 0;
+    transition: 0.4s;
+    font-size: 15px;
+}
+.quote-btn:hover{
+    background-color: #1690bd;
+    color: black;
+}
+.left h4{
+    color: #05a7e2;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.left h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.left p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.check-row span,
+.check-row i{
+    font-size: 25px;
+    font-weight: bold;
+}
+.call{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.quote-btn{
+     margin-top: 30px;
+}
+
+#choose{
+    margin: 100px 50px;
+}
+.choose-us{
+    text-align: center;
+}
+.choose-us h4{
+    color: #07a8e3;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.choose-us p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.choose-row{
+    display: flex;
+    margin-top: 50px;
+
+}
+.choose-row .choose1, .choose2, .choose3{
+    width: 33.33%;
+    padding: 0px 20px;
+}
+.choose-row i{
+    background-color: #02b7f9;
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.choose2 img{
+    width: 90%;
+}
+.choose-row p{
+    color: gray;
+    font-size: 17px;
+}
+.choose-row h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #0a2348;
+}
+.mb-4{
+    margin-bottom: 40px;
+}
+
+.choose-row i{
+    margin-bottom: 20px;
+}
+.choose-row h2{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+#services{
+    margin: 100px 50px;
+}
+.services-icon{
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06a3da;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    margin: 0px auto;
+
+}
+.services-icon i{
+    transform: rotate(45deg);
+    color: white;
+}
+.services-row{
+    display: flex;
+}
+.services-card{
+    background-color: #EEF9FF !important;
+    padding: 40px 30px;
+    text-align: center;
+    margin: 0px 10px;
+    width: 33.33%;
+    border-radius: 2px;
+
+}
+.services-card h4{
+    margin-top: 50px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.services-card p{
+    color: gray;
+}
+.services-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-head h3{
+    color: #06a3da;
+    font-size: 20px;
+}
+.services-head h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.services-row{
+    margin-bottom: 20px;
+}
+.call-quote{
+    background-color: #06a3da !important;
+    color: white !important;
+}
+.call-quote p{
+    color: white !important;
+}
+.call-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.call-quote h1{
+    font-weight: 700;
+}
+
+
+/* Pricing Section */
+#pricing{
+    margin: 100px 50px;
+}
+.pricing-head{
+    text-align: center;
+}
+.pricing-card{
+    background-color: #EEF9FF;
+    width: 33.33%;
+}
+
+.pcard-head{
+    padding: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+.pcard-body{
+    padding: 20px;
+}
+
+.pcard-body sup{
+    font-weight: bold;
+    font-size: 30px;
+    color: #0a2348;
+}
+.pcard-body .price{
+    font-weight: bold;
+    font-size: 50px;
+    color: #0a2348;
+
+}
+.pricing-card sub{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a2348;
+
+}
+.pcard-body .check-box div{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-btn{
+    background-color: #06a3da;
+    color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 15px 35px;
+    border: 0;
+    outline:  0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 300ms all;
+}
+.order-btn:hover{
+    background-color: #40abd1;
+}
+.pricing-row{
+    display: flex;
+}
+.pcard-extra{
+    background-color: white !important;
+    box-shadow: 0px 0px 20px #00000041;
+    z-index: 5;
+}
+.pricing-head{
+    margin: 30px 0px;
+}
+.pricing-head h3{
+    color: #06a3da;
+    font-size: 20px;
+}
+.pricing-head h1{
+    font-size: 35px;
+    color: #0a2348;
+}
+.pcard-head h2{
+    color: #06a3da;
+}
+.pcard-head p{
+    color: gray;
+}
+
+.check-box{
+    color: gray;
+}
+.blue-clr{
+    color: #06a3da;
+}
+.red-clr{
+    color: red;
+}
+
+.req-row{
+    display: flex;
+}
+
+.req-right{
+    background-color:#02b7f9;
+}
+
+.req-right{
+    width: 35%;
+}
+.req-left{
+    width: 65%;
+}
+#request{
+    margin: 100px 50px;
+}
+.request-head h3{
+    color: #02b7f9;
+    font-size: 20px;
+}
+.request-head p{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0a2348;
+}
+.req-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding-right: 70px;
+}
+
+.req-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.req-icon div{
+    width: 50%;
+}
+.req-icon div i{
+    color: #02b7f9;
+    font-size: 20px;
+}
+.req-icon div span{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.req-desc{
+    color: gray;
+    font-size: 18px;
+}
+
+.req-right{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+
+.req-right input{
+    height: 50px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #EEF9FF;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.req-right select {
+    height: 50px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #EEF9FF;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.req-right textarea{
+    border-radius: 2px;
+    border: 0;
+    background-color: #EEF9FF;
+    font-size: 17px;
+    padding: 10px;
+}
+.req-right button{
+    background-color: #0a2348;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
